@@ -1,0 +1,71 @@
+/*Image 1 hover*/
+
+.image_mh1 {
+    position: absolute;
+}
+
+.overlay {
+    position: relative;
+    top: -18.6rem;
+    display: none;
+}
+
+.overlay:hover {
+    background-color: rgba(128, 128, 128, 0.553);
+}
+
+.overlay i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 298.13px;
+    color: white;
+}
+
+
+/*Zone slider*/
+
+.txt_zone_slide {
+    margin-top: 5rem;
+}
+
+/*Zone monstres*/
+
+.zone_les_monstres {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.zone_les_monstres i,
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.zone_les_monstres p {
+    text-align: center;
+}
+
+.monstre_1,
+.monstre_2,
+.monstre_3,
+.monstre_4,
+.monstre_5,
+.monstre_6,
+.monstre_7,
+.monstre_8,
+.monstre_9,
+.monstre_10 {
+    border: solid;
+    border-color: grey;
+    padding: 2rem 1rem 3rem;
+
+}
+
+/*Zone formulaire*/
+
+.txt_formulaire {
+    font-size: 12px;
+}
