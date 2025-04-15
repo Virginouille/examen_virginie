@@ -38,6 +38,15 @@
 
 }
 
+.card {
+    filter: grayscale(1);
+    transition: filter 0.5s ease-in-out;
+}
+
+.card:hover {
+    filter: grayscale(0);
+}
+
 .zone_les_monstres i,
 h4 {
     display: flex;
