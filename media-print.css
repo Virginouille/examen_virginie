@@ -1,0 +1,53 @@
+/*****************Eco-conception********************/
+/*Media print*/
+
+@media print {
+
+    /* Masquer les éléments non pertinents à l'impression */
+    .image_mh1,
+    .overlay,
+    .zone_les_monstres i,
+    .zone_les_monstres h4 {
+        display: none !important;
+    }
+
+    /* Simplifier les sections à imprimer */
+    .txt_zone_slide {
+        margin-top: 1rem;
+        font-size: 14pt;
+    }
+
+    .zone_les_monstres {
+        display: block;
+    }
+
+    .zone_les_monstres p {
+        text-align: left;
+        font-size: 12pt;
+    }
+
+    .monstre_1,
+    .monstre_2,
+    .monstre_3,
+    .monstre_4,
+    .monstre_5,
+    .monstre_6,
+    .monstre_7,
+    .monstre_8,
+    .monstre_9,
+    .monstre_10 {
+        border: none;
+        padding: 1rem;
+        page-break-inside: avoid;
+    }
+
+    /* Adapter le texte du formulaire */
+    .txt_formulaire {
+        font-size: 11pt;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+}
