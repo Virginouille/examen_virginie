@@ -78,3 +78,9 @@ h4 {
 .txt_formulaire {
     font-size: 12px;
 }
+
+/*Zone footer*/
+.zone_footer,
+.div_icones {
+    height: 80px;
+}
